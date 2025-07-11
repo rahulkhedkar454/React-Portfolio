@@ -30,7 +30,7 @@ function Projects() {
               title="SavingsXpert"
               description="A personal finance tracker built with Next.js and PostgreSQL. It helps users manage daily expenses, categorize transactions, and visualize financial trends using charts and graphs. Authentication is handled with Clerk."
               ghLink="https://github.com/rahulkhedkar454/savingsxpert_web"
-              demoLink="https://savingsxpert-web.onrender.com/"
+              demoLink="https://savingsxpert-web.vercel.app/"
             />
           </Col>
 
