@@ -8,15 +8,7 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
-   if (!document.querySelector("#jotform-agent-script")) {
-      const script = document.createElement("script");
-      script.id = "jotform-agent-script";
-      script.src =
-        "https://cdn.jotfor.ms/agent/embedjs/0198a2bf345b7c0c90658b7314dead5856fa/embed.js?skipWelcome=1&maximizable=1";
-      script.async = true;
-      document.body.appendChild(script);
-    }
-  }, []);
+  
   
   let date = new Date();
   let year = date.getFullYear();
